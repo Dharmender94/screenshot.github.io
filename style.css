@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.yellow{
+    width: 100%;
+    background-color: rgb(248, 224, 5);
+    height: 20rem;
+    position: relative;
+      
+}
+.yellow:after {
+    border-right: solid 200px transparent;
+    border-left: solid 200px transparent;
+    border-top: solid 50px rgb(248, 224, 5);
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 1;
+    content: '';
+    top: 100%;
+    left: 50%;
+    height: 0;
+    width: 0;
+  }
+
+.content{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+
+.yellow img{
+
+    border-radius: 50%;
+    height: 80px;
+    transform: rotate(270deg);
+    margin-left: 40rem;
+    margin-top: 3rem;
+
+}
+
+.red{
+    width: 100%;
+    background-color: red;
+    height: 12rem;
+}
